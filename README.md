@@ -4,7 +4,6 @@ This Chat App is created as a  ReactJS final project for Front-End developer edu
 Project is created with:
 
 - React JS 18.2.0
-- Scaledrone
 
 ## Connect to Scaledrone
 
