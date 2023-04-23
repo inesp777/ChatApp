@@ -29,8 +29,8 @@ export default function Login() {
             <input
               className="form__username-input"
               type="text"
-              maxLength="20"
-              placeholder={error ? 'You need to enter your name!' : 'Please,enter your name!'}
+              maxLength="23"
+              placeholder={error ? 'Please,enter your name!':'Enter your name'}
               onChange={(e) => setUsername(e.target.value)}
             />
           </div>
