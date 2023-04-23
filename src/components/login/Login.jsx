@@ -24,14 +24,14 @@ export default function Login() {
     <div className="login-page">
       <div className="form-wrapper">
         <form className="form" onSubmit={handleSubmit}>
-          <h2 >MyChatApp</h2>
+          <div><h2 >MyChatApp</h2></div>
           <div className="form-control">
             <input
               className="form__username-input"
               type="text"
               maxLength="23"
               placeholder={error ? 'Please,enter your name!':'Enter your name'}
-              onChange={(e) => setUsername(e.target.value)}
+              onChange={(e) => setUsername(e.target.value)} 
             />
           </div>
           <button type="submit" className="form__login-button">
